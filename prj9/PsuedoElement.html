@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1::selection{
+            background-color: cyan;
+            color: darkblue;
+        }
+        h3::before{
+            content: "*";
+            color:red;
+        }
+        h4::after{
+            content: "*";
+            color:red
+        }
+        h5::first-letter{
+            color:darkgreen;
+        }
+        p::first-line{
+            color:gold;
+        }
+    </style>
+</head>
+<body>
+    <h1>cricket</h1>
+    <h2>batsmen & bowler</h2>
+    <h3>name</h3>
+    <h4>matches played</h4>
+    <h5>Highest runs</h5>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+       Odio deserunt ad culpa laboriosam libero quos perspiciatis vitae consequuntur,<br>
+       aliquam itaque nulla beatae doloremque dolorum dolore sapiente veritatis architecto accusantium odit.</p>
+</body>
+</html>
